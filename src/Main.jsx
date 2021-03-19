@@ -1,11 +1,14 @@
-import React from 'react'
+import React from "react";
+import backgroundImg from "./images/jacknjillbackground_new.jpg"
 
 function Main() {
-    return (
-        <div>
-            
-        </div>
-    )
+  return (
+    <div>
+      <div id="bg">
+        <img src={backgroundImg} alt="Background" />
+      </div>
+    </div>
+  );
 }
 
-export default Main
+export default Main;

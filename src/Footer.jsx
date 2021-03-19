@@ -1,7 +1,7 @@
 import React from 'react'
 
 const style = {
-    backgroundColor: "#F8F8F8",
+    backgroundColor: "#e3932b",
     borderTop: "1px solid #E7E7E7",
     textAlign: "center",
     padding: "20px",
@@ -25,7 +25,9 @@ function Footer({ children }) {
             <div style={phantom} />
             <div style={style}>
                 { children }
+                <div><a href='https://pngtree.com/free-backgrounds'>free background photos from pngtree.com</a></div>
             </div>
+            
         </div>
     )
 }

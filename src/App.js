@@ -1,15 +1,19 @@
 import "./App.css";
-import Header from "./Header";
-import Main from "./Main";
-import Footer from "./Footer";
+import Home from "./Home/Home";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      <Main />
-
-      <Footer />
+      <Router>
+        <div className="App">
+          <Switch>
+            <Route exact path={["/","/home"]}>
+              <Home />
+            </Route>
+          </Switch>
+        </div>
+      </Router>
     </div>
   );
 }

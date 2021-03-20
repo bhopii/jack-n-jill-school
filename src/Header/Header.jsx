@@ -1,7 +1,10 @@
 import React from "react";
 import { Navbar, Nav, NavDropdown } from "react-bootstrap";
+import logo from "../images/logo-new.png";
+import name from "../images/test_name.png";
+import "./Header.css";
 
-import logo from "./images/logo-new.png";
+
 
 function Header() {
   return (
@@ -11,17 +14,13 @@ function Header() {
         expand="lg"
         bg="danger"
         variant="dark"
-        style={{
-          background:
-            "linear-gradient(90deg, rgba(36,0,6,1) 2%, rgba(201,171,47,1) 4%, rgba(212,38,38,1) 86%)",
-        }}
+        className="navbar"
       >
-        <Navbar.Brand href="#home">
-          <img src={logo} height="50px" width="50px" />
-          {" "}
-          <span style={{ color: "#390c66", fontSize: "30px", fontFamily: "Georgia, serif", fontWeight: "bold"}}>
-            Jack n Jill Nursery School & Abacus
-          </span>
+        <Navbar.Brand href="/home">
+          <div className="logo-div"> <img src={logo} alt="Logo"/></div>
+        </Navbar.Brand>
+        <Navbar.Brand href="/home">
+          <div  className="name-div"> <img src={name} alt="Name"/></div>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">

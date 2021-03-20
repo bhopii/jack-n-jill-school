@@ -1,7 +1,7 @@
 import React from 'react'
 
 const style = {
-    backgroundColor: "#e3932b",
+    background: "linear-gradient(to right, rgb(225, 127, 14), rgb(146, 7, 63))",
     borderTop: "1px solid #E7E7E7",
     textAlign: "center",
     padding: "20px",
@@ -25,7 +25,7 @@ function Footer({ children }) {
             <div style={phantom} />
             <div style={style}>
                 { children }
-                <div><a href='https://pngtree.com/free-backgrounds'>free background photos from pngtree.com</a></div>
+                {/* <div><a href='https://pngtree.com/free-backgrounds'>free background photos from pngtree.com</a></div> */}
             </div>
             
         </div>

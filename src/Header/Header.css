@@ -1,0 +1,35 @@
+.logo-div img {
+  height: 60px;
+  width: 60px;
+}
+
+.name-div img{
+    height: 100px;
+    width: auto;
+}
+
+.navbar {
+  background: linear-gradient(to right, rgb(255, 51, 0), rgb(0, 8, 255));
+}
+
+
+@media (max-width: 600px) {
+    .name-div img{
+        height: 80px;
+        width: 80px;
+    }
+}
+
+@media (max-width: 800px) {
+    .name-div img{
+        height: 100px;
+        width: 170px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .name-div img{
+        height: 100px;
+        width: 170px;
+    }
+}

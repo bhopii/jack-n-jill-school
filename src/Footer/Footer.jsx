@@ -22,7 +22,7 @@ const phantom = {
 function Footer({ children }) {
     return (
         <div>
-            <div style={phantom} />
+            {/* <div style={phantom} /> */}
             <div style={style}>
                 { children }
                 {/* <div><a href='https://pngtree.com/free-backgrounds'>free background photos from pngtree.com</a></div> */}

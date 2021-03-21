@@ -12,6 +12,11 @@
   background: linear-gradient(to right, rgb(255, 51, 0), rgb(0, 8, 255));
 }
 
+.header-div {
+    display: "block";
+    padding: "20px";
+    width:100%;
+}
 
 @media (max-width: 600px) {
     .name-div img{

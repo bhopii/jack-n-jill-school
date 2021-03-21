@@ -7,8 +7,9 @@ import "./Header.css";
 
 
 function Header() {
+
   return (
-    <div>
+    <div className="header-div">
       <Navbar
         collapseOnSelect
         expand="lg"
